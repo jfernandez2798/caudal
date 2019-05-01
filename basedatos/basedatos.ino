@@ -4,7 +4,7 @@
  
 // Set these to run example. 
 #define FIREBASE_HOST "https://console.firebase.google.com/project/arduinotest-7d69c/database/arduinotest-7d69c/data" 
-#define FIREBASE_AUTH " AIzaSyDK4K9pca8ZIlBV5zGFNxb6CKwHJdwGoSc " 
+#define FIREBASE_AUTH "StUB1PNBKjNZ36gBRN9OGpHJqXMZqaYIWvbFynua" 
 #define WIFI_SSID " IZZI-832F" 
 #define WIFI_PASSWORD "189C2769832F" 
  
