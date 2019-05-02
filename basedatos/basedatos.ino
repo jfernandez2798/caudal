@@ -1,12 +1,24 @@
+#include <SerialESP8266wifi.h>
 
-#include <ESP8266WiFi.h">
-#include <<span class="TextRun Highlight BCX0 SCXW174472232" lang="EN-US" xml:lang="EN-US" data-contrast="auto"><span class="SpellingError BCX0 SCXW174472232">FirebaseArduino.h></span></span>
- 
+#include <ESP8266WiFi>
+
+#include <Firebase.h>
+#include <FirebaseArduino.h>
+#include <FirebaseCloudMessaging.h>
+#include <FirebaseError.h>
+#include <FirebaseHttpClient.h>
+#include <FirebaseObject.h>
+
+
+
+
+
+
 // Set these to run example. 
 #define FIREBASE_HOST "https://console.firebase.google.com/project/arduinotest-7d69c/database/arduinotest-7d69c/data" 
 #define FIREBASE_AUTH "StUB1PNBKjNZ36gBRN9OGpHJqXMZqaYIWvbFynua" 
-#define WIFI_SSID " IZZI-832F" 
-#define WIFI_PASSWORD "189C2769832F" 
+#define WIFI_SSID "INFINITUM0501_2.4" 
+#define WIFI_PASSWORD "1b59jF3WSb" 
  
 void setup() { 
   Serial.begin(9600); 
